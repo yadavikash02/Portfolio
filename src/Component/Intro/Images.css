@@ -1,0 +1,42 @@
+
+.c{
+    height: 150px;
+    width: 300px;
+    position: relative;
+    border: 1px solid rgb(97, 135, 238);
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 30px 50px;
+    box-shadow: 0px 2px 5px black;
+  }
+  .c:hover{
+    height: 210px;
+  }
+  .intro{
+    border: none;
+  }
+  .image{
+    position: relative;
+    width: 100%;
+    height: auto;
+    transform: translateY(-60px);
+  }
+  img{
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px black;
+  }
+  .content{
+    /* height: 100px; */
+    text-align: center;
+    padding: 10px 20px;
+    transform: translateY(-200px);
+    transition: 0.4s;
+    opacity: 0;
+    /* height: 20%; */
+    /* width: auto; */
+  }
+  .c:hover > .content{
+    opacity: 1;
+    transform: translateY(-50px);
+  }
