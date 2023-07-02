@@ -4,14 +4,14 @@ import logo2 from './Image/mobile.webp'
 import logo3 from './Image/certificate.png'
 function Showtime() {
     return (
-        <div className="Container row mt-5">
+        <div className="Container row mt-5 con">
             <div className="col-md-4">
                 <div className="web border Cv">
-                    <div className="row">
+                    <div className="con">
                         <div className=" col-md-4">
                             <img src={logo1} width="80" alt="" />
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8 mx-4">
                             <h5>Website</h5>
                             <p>5+ Full Stack Project</p>
                         </div>
@@ -19,29 +19,29 @@ function Showtime() {
 
                 </div>
                 <div className="app my-3 border Cv">
-                    <div className="row ">
+                    <div className="con">
                         <div className="col-md-4">
                             <img src={logo2} width="80" alt="" />
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8 mx-4">
                             <h5>Mobile APP</h5>
                             <p>1+ Project For Both Device</p>
                         </div>
                     </div>
                 </div>
                 <div className="cer my-3 border Cv">
-                    <div className="row">
+                    <div className="con">
                         <div className="col-md-4">
                             <img src={logo3} width="80" alt="" />
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8 mx-4">
                             <h5>Certification</h5>
                             <p>10+ On DSA and Internship</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="dec col-md-6 mx-5">
+            <div className="dec col-md-6 mt-3 ml-3">
                 <h4 className='mb-5 bold'>What do I help?</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum consequuntur non sed nulla aut placeat vitae assumenda perferendis ea ducimus.z
